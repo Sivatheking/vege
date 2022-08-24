@@ -93,15 +93,15 @@ PM_START_TEXT = """ ┗►  *What's Up Yoo! * ◄┛
 buttons = [
     [
         InlineKeyboardButton(
-                            text="☑ Add Vegeta To Groups ☑",
-                            url="t.me/VegetaRobot?startgroup=true"),
+                            text="☑ Add Vegeta8 To Groups ☑",
+                            url="t.me/Vegeta8_bot?startgroup=true"),
                     ],
                      [
                        InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(text="UPDATES",  url=f"https://t.me/{UPDATES_CHANNEL}"),
                     ],
                    [
-                       InlineKeyboardButton(text="NETWORK", url=f"https://t.me/nandhabots"),
+                       InlineKeyboardButton(text="NETWORK", url=f"https://t.me/pyrogram_support"),
                        InlineKeyboardButton(text="LOGS", url=f"https://t.me/vegetalogs"),
                 ],[ InlineKeyboardButton(text="COMMANDS HELP", callback_data="help_back"
          ),
