@@ -3,6 +3,7 @@ import random
 import time
 import html
 import re
+import json
 
 from sys import argv
 from typing import Optional
@@ -10,7 +11,6 @@ from pyrogram import filters
 
 from VegetaRobot import (
     ALLOW_EXCL,
-    OWNER_USERNAME,
     CERT_PATH,
     DONATION_LINK,
     LOGGER,
@@ -103,7 +103,7 @@ buttons = [
                     ],
                    [
                        InlineKeyboardButton(text="NETWORK", url=f"https://t.me/pyrogram_support"),
-                       InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}"),
+                       InlineKeyboardButton(text="OWNER", url=f"https://t.me/Sivatheking_1"),
                 ],[ InlineKeyboardButton(text="COMMANDS HELP", callback_data="help_back"
          ),
     ],
