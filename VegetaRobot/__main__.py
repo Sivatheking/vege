@@ -102,7 +102,7 @@ buttons = [
                     ],
                    [
                        InlineKeyboardButton(text="NETWORK", url=f"https://t.me/pyrogram_support"),
-                       InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAM}"),
+                       InlineKeyboardButton(text="OWNER", url=f"https://t.me/{OWNER_USERNAME}"),
                 ],[ InlineKeyboardButton(text="COMMANDS HELP", callback_data="help_back"
          ),
     ],
