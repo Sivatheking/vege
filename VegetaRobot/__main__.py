@@ -10,7 +10,7 @@ from pyrogram import filters
 
 from VegetaRobot import (
     ALLOW_EXCL,
-    OWNER_USERNAME
+    OWNER_USERNAME,
     CERT_PATH,
     DONATION_LINK,
     LOGGER,
