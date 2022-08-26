@@ -80,6 +80,11 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
+hexa = [[
+ InlineKeyboardButton("join", url="https://t.me/blissey_train")
+],[
+ InlineKeyboardButton("open hexa", url="https://t.me/HeXamonbot?start=1ecgidows30ph")
+]]
 
 PM_START_TEXT = """ ┗►  *What's Up Yoo! * ◄┛
 
@@ -377,7 +382,7 @@ def vegeta_about_callback(update, context):
         vegeta_img = random.choice(VEGETA_IMG)
         query.message.edit_text(
                 PM_START_TEXT.format(vegeta_img),
-                reply_markup=InlineKeyboardMarkup(buttons),
+                reply_markup=InlineKeyboardMarkup(hexa),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
         )
